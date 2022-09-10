@@ -2,6 +2,7 @@
 
 #include <time.h>
 
+#include <stdio.h>
 /**
  * main - prints random numbers and states their sign
  * Description: uses rand() and if else functions
