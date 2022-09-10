@@ -3,11 +3,13 @@
 #include <time.h>
 
 /**
- * main - genrates random numbers then determines whether positive,0,or -ve
- * description; uses srand and if
- * return: return 0 if successful
- */
+ * main - prints random numbers and states their sign
+ * Description: uses rand() and if else functions
+ * Return: return 0 when run successfully
+*/
+
 int main(void)
+
 {
 
 		int n;
@@ -18,13 +20,13 @@ int main(void)
 
 				n = rand() - RAND_MAX / 2;
 
-					if (n > 0)
-						printf("%d\n is positive", n);
-					else if (n == 0)
-						printf("%d\n is zero", n);
-					else
-						printf("%d\n is negative", n);
-
-		return (0);
+					/* your code goes there */
+				if (n > 0)
+					printf("%d\n is positive", n);
+				else if (n == 0)
+					printf("%d\n is zero", n);
+				else
+					printf("%d\n is negative", n);
+					return (0);
 
 }
