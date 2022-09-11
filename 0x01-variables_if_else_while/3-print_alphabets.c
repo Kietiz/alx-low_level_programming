@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#include <ctype.h>
+
 /**
  * main - prints out alphabets in small and caps
  * Description: uses for loop and putchar
