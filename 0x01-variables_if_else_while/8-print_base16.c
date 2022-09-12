@@ -10,8 +10,8 @@ int main(void)
 {
 	int x;
 
-	for (x = 0 ; x <= 'f' ; x++)
-		putchar(x + '0');
+	for (x = 0 ; x <= 18 ; x++)
+		putchar(x%16 + '0');
 	putchar('\n');
 	return (0);
 }
