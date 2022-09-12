@@ -1,17 +1,20 @@
 #include <stdio.h>
 
-/**
- * main - prints all letters except e and q
- * Description: uses for and putchar fn
- * Return: return 0 when successful
+/*
+ * main - prints small letters without e and q
+ * Description: uses the for and putchar functions
+ * Return: return 0
  */
 
 int main(void)
 {
-	int x;
+	int x = 'a';
 
-	for (x = 'a' ; (x != 'e') || (x != 'q') || (x <= 'z') ; x++)
+	while (x != 'q' || x != 'e' || x <= 'z')
+	{
 		putchar(x);
+	x++;
 	putchar('\n');
+	}
 	return (0);
 }
