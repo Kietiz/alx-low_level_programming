@@ -9,9 +9,10 @@
 int main(void)
 {
 	int x;
+	int y = x % 16;
 
-	for (x = 0 ; x <= 18 ; x++)
-		putchar(x%16 + '0');
+	for (x = 0 ; x <= 16 ; x++)
+		putchar(y + '0');
 	putchar('\n');
 	return (0);
 }
