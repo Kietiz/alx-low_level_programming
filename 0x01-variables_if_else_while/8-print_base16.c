@@ -8,11 +8,12 @@
 
 int main(void)
 {
-	int x = 0;
-	int y = x % 16;
+	int x;
+	int y;
 
-	for (x = 0 ; x <= 16 ; x++)
-		putchar(y + '0');
+	for (x = 0, y = 'a' ; x <= 9, y <= 'f' ; x++, y++)
+		putchar(x);
+		putchar(y);
 	putchar('\n');
 	return (0);
 }
