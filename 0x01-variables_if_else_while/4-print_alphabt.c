@@ -12,7 +12,7 @@ int main(void)
 
 	for (x = 'a' ; x < 'e' ; x++)
 		for (x = 'f' ; x < 'q' ; x++)
-			for (x = 'r' ; x <= 'z')
-				putchart(x);
+			for (x = 'r' ; x <= 'z' ; x++)
+				putchar(x);
 	putchar('\n');
 }
