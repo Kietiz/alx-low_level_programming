@@ -8,16 +8,9 @@
 
 int main(void)
 {
-	int x;
-	int y[16];
+	char x[] = "abcdfghijklmnoprstuvwxyz";
 
-	for (x = 'a' ; x < 'e' ; x++)
-		y[x] = x;
-	for (x = 'f' ; x < 'q' ; x++)
-		y[x] = x;
-	for (x = 'r' ; x <= 'z' ; x++)
-		y[x] = x;
-	putchar(y[x]);
+	putchar(x[]);
 	putchar('\n');
 	return (0);
 }
