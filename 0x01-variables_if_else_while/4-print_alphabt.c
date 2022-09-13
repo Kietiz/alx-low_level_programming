@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char x[24] = {};
+	char x[24] = {'a'};
 	int y;
 
 	for (y = 'a' ; y < 'e' ; y++)
