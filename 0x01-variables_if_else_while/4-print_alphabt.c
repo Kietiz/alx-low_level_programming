@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	char x[1] = {abcdfghijklmnoprstuvwxyz};
+	char x[24] = {abcdfghijklmnoprstuvwxyz};
 
-	putchar(x[1]);
+	putchar(x[24]);
 	putchar('\n');
 	return (0);
 }
