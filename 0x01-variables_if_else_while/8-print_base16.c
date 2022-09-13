@@ -12,6 +12,8 @@ int main(void)
 
 	for (x = 0 ; x <= 9 ; x++)
 		putchar(x + '0');
+	for (x = 'a' ; x <= 'f' ; x++)
+		putxchar(x);
 	putchar('\n');
 	return (0);
 }
