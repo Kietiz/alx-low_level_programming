@@ -1,9 +1,7 @@
-#include <stdio.h>
-
-#include "main.h"
+#include <main.h>
 
 /**
- * main - prints alphabets in small letters
+ * print_alphabet - prints alphabets in small letters
  * Description: Uses headers
  * Return: always 0
  */
@@ -15,10 +13,4 @@ void print_alphabet(void)
 	for (x = 'a' ; x <= 'z' ; x++)
 		putchar(x);
 	putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
