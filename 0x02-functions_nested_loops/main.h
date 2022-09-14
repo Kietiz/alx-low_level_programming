@@ -10,7 +10,7 @@ int print_alphabets()
 {
 	int x;
 
-	for (x = 'a' ; x <= 'z' )
+	for (x = 'a' ; x <= 'z'; x++)
 		putchar(x);
 	putchar('\n');
 	return (x);
