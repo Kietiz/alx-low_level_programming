@@ -6,7 +6,7 @@
  * Return: always 0
  */
 
-int print_alphabets()
+int print_alphabet()
 {
 	int x;
 
