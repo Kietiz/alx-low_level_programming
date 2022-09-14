@@ -11,5 +11,5 @@
 int main(void)
 {
 	print_alphabets();
-	return (0_);
+	return (0);
 }
