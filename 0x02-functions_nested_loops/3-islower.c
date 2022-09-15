@@ -2,7 +2,7 @@
 
 /**
  *_islower - checks for lower characters
- * Description; using headers
+ * @c: is the input to the program
  * Return:Returns 1 if c is lowercase otherwise 0
  */
 
