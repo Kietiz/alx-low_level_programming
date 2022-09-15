@@ -1,4 +1,4 @@
-#imclude "main.h"
+#include "main.h"
 
 /**
  *_islower - checks for lower characters
