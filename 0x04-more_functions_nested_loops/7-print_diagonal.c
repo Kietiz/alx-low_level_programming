@@ -11,6 +11,7 @@
 void print_diagonal(int n)
 {
 	int count;
+	int s;
 
 	if (n <= 0)
 	{
