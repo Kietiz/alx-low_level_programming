@@ -15,24 +15,19 @@ int main(void)
 	char b[] = "Buzz";
 	char q[] = "FizzBuzz";
 
-	for (n = 0 ; n <= 100 ; n++)
+	for (n = 1; n <= 100; n++)
 	{
-		if ((n % 3 == 0) && (n % 5 != 0))
-		{
-			putchar(f);
-		}
-		else if ((n % 3 != 0) && (n % 5 == 0))
-		{
-			putchar(b);
-		}
+		if (n == 100)
+			printf("%s", b);
 		else if ((n % 3 == 0) && (n % 5 == 0))
-		{
-			putchar(q);
-		}
+			printf("%s ", q);
+		else if (n % 3 == 0)
+			printf("%s ", f);
+		else if (n % 5 == 0)
+			printf("%s ", b);
 		else
-		{
-			printf("%d", n);
-		}
+			printf("%d ", i);
 	}
-	putchar('\n');
+	printf("\n");
+	return 0;
 }
