@@ -11,9 +11,9 @@
 int main(void)
 {
 	int n;
-	char f = "Fizz";
-	char b = "Buzz";
-	char q = "FizzBuzz";
+	char f[] = "Fizz";
+	char b[] = "Buzz";
+	char q[] = "FizzBuzz";
 
 	for (n = 0 ; n <= 100 ; n++)
 	{
