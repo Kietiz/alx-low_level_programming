@@ -1,5 +1,6 @@
 #include "main.h"
 
+#include <stdio.h>
 /**
  * print_most_numbers - prints all digits except 2 and 4
  *
@@ -15,7 +16,7 @@ void print_most_numbers(void)
 		if ((i == 2) || (i == 4))
 			continue;
 		else
-			_putchar(i + '0');
+			putchar(i + '0');
 	}
-	_putchar('\n');
+	putchar('\n');
 }
