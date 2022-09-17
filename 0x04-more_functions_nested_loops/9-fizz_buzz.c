@@ -3,10 +3,10 @@
 
 /**
  * main - prints fizz buz depending on divisibility of number
- * fizz - number divisiblby 3 and not 5
- * buzz - number divisible by 5 and not 3
- * fizzbuzz - number divisible by 5 and 3
- * Return: return fizz , buzz or fizzbuzz or number
+ * fizz number divisiblby 3 and not 5
+ * buzz number divisible by 5 and not 3
+ * fizzbuzz number divisible by 5 and 3
+ * Return: return 0
  */
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	char b[] = "Buzz";
 	char q[] = "FizzBuzz";
 
-	for (n = 1; n <= 100; n++)
+	for (n = 1 ; n <= 100 ; n++)
 	{
 		if (n == 100)
 			printf("%s", b);
