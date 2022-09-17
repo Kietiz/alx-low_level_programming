@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints fizz buz depending on divisibility of number
@@ -29,5 +30,5 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("\n");
-	return 0;
+	return (0);
 }
