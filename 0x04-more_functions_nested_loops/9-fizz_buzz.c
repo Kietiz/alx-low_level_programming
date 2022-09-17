@@ -2,10 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints fizz buz depending on divisibility of number
- * fizz number divisiblby 3 and not 5
- * buzz number divisible by 5 and not 3
- * fizzbuzz number divisible by 5 and 3
+ * main - prints fizz buz depending on divisibility
  * Return: return 0
  */
 
