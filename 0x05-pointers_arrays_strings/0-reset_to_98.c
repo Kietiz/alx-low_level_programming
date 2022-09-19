@@ -3,6 +3,7 @@
 /**
  * reset_to_98 - resets value of a pointer
  * @*n: memory pointer
+ * @n: integet to be updated
  * Return: null
  */
 
