@@ -11,6 +11,7 @@ void rev_string(char *s)
 	int a;
 	int b;
 	int fc = 0;
+	char rev = s[0];
 
 	for (a = 0 ; s[a] != '\0' ; a++)
 	{
@@ -18,6 +19,6 @@ void rev_string(char *s)
 	}
 	for (b = (fc - 1) ; b >= 0 ; b--)
 	{
-		s[b];
+		s[b] = rev;
 	}
 }
