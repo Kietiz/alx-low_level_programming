@@ -12,8 +12,6 @@ void reverse_array(int *a, int n)
 	int i;
 	char rev;
 
-	while (a[n] != '\0')
-		n++;
 	for (i = 0 ; i < n ; i++)
 	{
 		n--;
