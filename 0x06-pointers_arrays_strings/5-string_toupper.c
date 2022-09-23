@@ -2,17 +2,17 @@
 
 /**
  * *string_toupper - converts strings to upper case
- * @n: the string
+ * @str: the string
  * Return: uppercase string
  */
 
-char *string_toupper(char *n)
+char *string_toupper(char *str)
 {
 	int i;
 
 	for (i = 0 ; n[i] != '\0' ; i++)
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
-			n[i] = n[i] - 32;
+		if (str[i] >= 'a' && str[i] <= 'z')
+			str[i] = str[i] - 32;
 	}
-	return (n);
+	return (str);
